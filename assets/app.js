@@ -8,9 +8,9 @@ document.querySelectorAll('.card-btn').forEach(function(btn){
     btn.closest('.card').classList.toggle('open',!open);
   });
 });
-// Value layer tabs
-(function(){
-  var tabs=Array.prototype.slice.call(document.querySelectorAll('.stack [role="tab"]'));
+// Generic tabs (value layers + key numbers)
+document.querySelectorAll('[role="tablist"]').forEach(function(list){
+  var tabs=Array.prototype.slice.call(list.querySelectorAll('[role="tab"]'));
   function select(t,focus){
     tabs.forEach(function(x){
       var on=x===t;
@@ -30,4 +30,4 @@ document.querySelectorAll('.card-btn').forEach(function(btn){
       if(n){e.preventDefault();select(n,true)}
     });
   });
-})();
+});

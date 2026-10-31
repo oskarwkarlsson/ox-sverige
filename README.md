@@ -1,8 +1,6 @@
-# Ox – Svensk AI-kraft
+# Ox – Investeraröversikt (svenska)
 
-Kundinriktad webbplats för Ox (svenska). Statisk HTML/CSS med lite vanilla-JS, publicerad via GitHub Pages.
+Investerarinriktad webbplats för Ox. Statisk HTML/CSS med lite vanilla-JS, publicerad via GitHub Pages.
+Alla siffror är uppskattningar från Ox-modellen (oktober 2026).
 
-- `index.html` – sidan
-- `assets/style.css`, `assets/app.js`
-
-Platshållare att fylla i: e-post (`kontakt@ox.example`), telefon. Ta bort `<meta name="robots" content="noindex, nofollow">` när sidan ska indexeras.
+Platshållare: e-post (`kontakt@ox.example`), telefon. Ta bort `<meta name="robots" content="noindex, nofollow">` när sidan ska indexeras.
